@@ -4,7 +4,9 @@
   <artifactId>artifactId</artifactId>
   <version>version</version>
   <packaging>war</packaging>
-<failOnMissingWebXml>false</failOnMissingWebXml>
+  <configuration>
+	<failOnMissingWebXml>false</failOnMissingWebXml>
+</configuration>
   <name>@ant.project.name@</name>
   <description>@description@</description>
   <url>@project.url@</url>
